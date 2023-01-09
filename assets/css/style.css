@@ -229,10 +229,6 @@ footer a {
     line-height: 1.2;
   }
 
-  article p:nth-child(1) {
-    font-size: 1em;
-  }
-
   #html-logo-container {
     width: 80px;
     height: 80px;
@@ -261,7 +257,67 @@ footer a {
     padding-bottom: 5px;
   }
 
+  /* FOOTER CSS INSTRUCTIONS */
   footer {
     font-size: 2.2rem;
+  }
+}
+
+/* Media query for the 768px Version */
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;
+  }
+
+  /* HEADER CSS INSTRUCTIONS */
+  header {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  header p {
+    margin-bottom: 0.8em;
+  }
+
+  /* MAIN CSS INSTRUCTIONS */
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.2;
+  }
+
+  article p:first-of-type {
+    font-size: 1.1em;
+  }
+
+  article h2:first-of-type {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  table {
+    margin: 5em auto;
+    width: 70%;
+  }
+
+  /* MAIN ASIDE CSS INSTRUCTIONS */
+  section p:first-of-type {
+    font-size: 1em;
+  }
+
+  /* FORM */
+  input {
+    width: 70%;
+    height: 3.5em;
+  }
+
+  button {
+    width: 15%;
+    height: 3.5em;
+  }
+
+  /* FOOTER CSS INSTRUCTIONS */
+  footer {
+    font-size: 2rem;
   }
 }
