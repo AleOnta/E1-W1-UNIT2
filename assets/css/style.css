@@ -386,18 +386,24 @@ footer a {
 
   iframe {
     display: inline-block;
-    width: 40%;
-    margin-left: auto;
+    width: 49%;
+    height: 250px;
+    margin: auto;
   }
 
   section {
     display: inline-block;
-    width: 40%;
+    position: absolute;
+
+    width: 42%;
+    height: 250px;
     border-radius: 15px;
-    margin-right: auto;
+    margin: 0;
   }
   /* MAIN ASIDE CSS INSTRUCTIONS */
-  aside {
+
+  aside h2 {
+    margin-top: 25px;
   }
 
   aside div {
@@ -406,4 +412,8 @@ footer a {
   }
 
   /* FOOTER CSS INSTRUCTIONS */
+  footer address {
+    width: 770px;
+    margin: auto;
+  }
 }
