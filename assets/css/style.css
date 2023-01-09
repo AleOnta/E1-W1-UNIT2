@@ -2,6 +2,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: Poppins, "Helvetica Neue", sans-serif;
   font-size: 1.4rem;
@@ -10,9 +11,11 @@ body {
   background-image: url("../img/sfondo.png");
   background-position: center center;
 }
+
 * {
   box-sizing: border-box;
 }
+
 hr {
   display: none;
 } /* rimuove l'elemento */
@@ -386,9 +389,10 @@ footer a {
 
   iframe {
     display: inline-block;
-    width: 49%;
+    width: 48%;
     height: 250px;
     margin: auto;
+    margin-right: 20px;
   }
 
   section {
@@ -430,5 +434,26 @@ footer a {
   footer address {
     width: 770px;
     margin: auto;
+  }
+}
+
+@media print {
+  body {
+    font-size: 2em;
+    background: none;
+    line-height: 1.8;
+  }
+
+  header,
+  section,
+  iframe,
+  aside,
+  footer {
+    display: none;
+  }
+
+  main {
+    border: none;
+    box-shadow: none;
   }
 }
