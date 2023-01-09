@@ -321,3 +321,89 @@ footer a {
     font-size: 2rem;
   }
 }
+
+/* Media query for the 1200px version */
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 1.7rem;
+    line-height: 1.9;
+    padding: 0;
+  }
+
+  header,
+  main,
+  footer {
+    width: 85%;
+    margin: 1em auto;
+  }
+
+  /* HEADER CSS INSTRUCTIONS */
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8em;
+    font-size: 1.6rem;
+  }
+
+  header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header div > img {
+    margin: 0;
+  }
+
+  header p {
+    margin: 0;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+  /* MAIN CSS INSTRUCTIONS */
+
+  #html-logo-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 2.6em;
+    line-height: 1.2;
+  }
+
+  article p:first-of-type {
+    font-size: 0.86em;
+  }
+
+  article ul:first-of-type {
+    line-height: 1.9;
+  }
+
+  iframe {
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+  }
+
+  section {
+    display: inline-block;
+    width: 40%;
+    border-radius: 15px;
+    margin-right: auto;
+  }
+  /* MAIN ASIDE CSS INSTRUCTIONS */
+  aside {
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+  }
+
+  /* FOOTER CSS INSTRUCTIONS */
+}
