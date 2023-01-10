@@ -441,7 +441,12 @@ footer a {
   body {
     font-size: 2em;
     background: none;
-    line-height: 1.8;
+    line-height: 2;
+  }
+
+  #html-logo-container {
+    float: left;
+    margin-right: 10px;
   }
 
   header,
